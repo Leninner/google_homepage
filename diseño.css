@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  display: block;
 }
 body{
   background-color: aquamarine;
