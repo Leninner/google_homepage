@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
     <title>GOOGLE</title>
+    <link rel="shortcut icon" href="menu.png" type="image/x-icon">
     <link rel="stylesheet" href="diseño.css">
   </head>
   <body>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo de google">
-    <form action="http://lineadecodigo.com/search" method="get">
-      <label for="busqueda">¿Qué quieres buscar?</label>
-      <input type="search" id="busqueda" name="q"/>
-      <input type="submit" value="Buscar"/>
-    </form>
+    <div class="principal">
+      <div class="nav">
+        <div class="posicion_nav">
+          <nav class="menu">
+            <ul>
+              <li class="main"><a class="topo" href="https://about.google/intl/es-419/products/">
+                <img class="img" src="menu.png" alt="">
+              </a></li>
+              <li class="main"><a class="topo" id="one" href="https://www.google.com/imghp?hl=es">Imágenes</a></li>
+              <li class="main"><a class="topo" id="two" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="logo">
+        <div class="posicion_logo">
+              <a href="https://www.behance.net/leninlenin"><img src="logo_google.png" alt=""></a>
+        </div>
+      </div>
+      <div class="formulario">
+        <div class="posicion_form">
+          <form class="form" action="https://www.google.com/search" method="GET" target="_blank">
+            <div class="input">
+              <input class="input2" name="q" type="search">
+              <input type="hidden" name="as_sitesearch" value="">
+            </div>
+            </form>
+        </div>
+      </div>
+      <div class="botones">
+        <div class="horizontal">
+          <nav>
+            <button id="dr" type="submit"><a href="https://www.google.com">Buscar con Google</a></button>
+            <button id="ds" type="submit"><a href="https://www.google.com/doodles">Me siento con Suerte</a></button>
+          </nav>
+      </div>
+      </div>
+
+    </div>
+
+
+
   </body>
 </html>
