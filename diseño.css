@@ -1,133 +1,133 @@
 /* Página Completa */
-*{
+* {
   font-size: 15px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   color: #222;
   margin: 0;
   padding: 0;
 }
 /* Menú superior */
-li.main{
+li.main {
   display: inline;
   float: right;
 }
-li.main:hover{
+li.main:hover {
   text-decoration: underline;
 }
-#two{
+#two {
   padding-right: 30px;
 }
-.menu{
+.menu {
   padding-top: 20px;
 }
-.topo{
+.topo {
   padding-right: 15px;
   text-decoration: none;
 }
-.img{
+.img {
   width: 25%;
   height: 25%;
 }
 /* Logo */
-.posicion_logo{
+.posicion_logo {
   padding-left: 519px;
   padding-top: 46px;
 }
 /* Formulario */
-.posicion_form{
+.posicion_form {
   padding-left: 370px;
   padding-top: 25px;
   flex: 1;
   display: flex;
 }
-.form{
-  margin:0px;
-  display:flex;
-  border:1px solid #DFE1E5;
-  border-radius:50px;
-  max-width:660px;
+.form {
+  margin: 0px;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 50px;
+  max-width: 660px;
 }
-.input{
-  flex:1;
-  display:flex;
-  padding:7px;
+.input {
+  flex: 1;
+  display: flex;
+  padding: 7px;
 }
-.input2{
-  background-color:transparent;
-  border:none;
-  margin:0;
+.input2 {
+  background-color: transparent;
+  border: none;
+  margin: 0;
   font-size: 24px;
-  word-wrap:break-word;
-  outline:none;
-  display:flex;
-  flex:1;
-  -webkit-tap-highlight-color:transparent;
-  width:570px;
-  padding:6px;
-  padding-left:14px;
-  overflow-y:hidden;
-  height:31px;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 1;
+  -webkit-tap-highlight-color: transparent;
+  width: 570px;
+  padding: 6px;
+  padding-left: 14px;
+  overflow-y: hidden;
+  height: 31px;
   display: flex;
 }
 .input2:focus {
   font-size: 14px;
 }
 /* Botones de Búsqueda y Me siento con suerte */
-.horizontal nav{
+.horizontal nav {
   text-align: center;
   padding-top: 60px;
 }
-button{
+button {
   background-color: rgb(244, 239, 238);
   width: 150px;
   height: 35px;
   border-style: none;
 }
-button:hover{
+button:hover {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-#dr{
+#dr {
   margin-right: 10px;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 /* División entre footer y demás elementos */
-#espaciador{
+#espaciador {
   width: 100%;
   height: 200px;
 }
 /* Footer General */
-footer{
+footer {
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 48px;
 }
-footer div{
+footer div {
   padding-left: 30px;
   padding-top: 20px;
 }
-footer a{
+footer a {
   color: rgba(0, 0, 0, 0.5);
 }
 /* Footer primario*/
-.len li{
+.len li {
   display: inline;
 }
 /* Footer secundario*/
-.il{
-    float: left;
-    padding-left: 5px;
-    padding-right: 20px;
-    width: auto;
+.il {
+  float: left;
+  padding-left: 5px;
+  padding-right: 20px;
+  width: auto;
 }
-.menu_down li{
+.menu_down li {
   display: inline;
 }
-.li{
+.li {
   float: right;
   padding-left: 10px;
   padding-right: 23px;
